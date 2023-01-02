@@ -1,0 +1,116 @@
+.portfilioelement {
+    position: absolute;
+    top: 330%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #141D2F;
+
+    img {
+        width: 620px;
+        height: 339px;
+        
+    }
+}
+
+
+.image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    object-position: top;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    z-index: 1000;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    h2 {
+        width: 196px;
+        height: 42.82px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        color: #4B47FF;
+        margin: 0;
+    }
+
+    h3 {
+        width: 488px;
+        height: 28px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 120%;
+        color: #00BEE8;
+    }
+
+    p {
+        width: 513px;
+        height: 57px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    height: 58px;
+    background: #4B47FF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.github {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    width: 137px;
+    height: 58px;
+    border: 1px solid #00BEE8;
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 120%;
+    background-color: #141D2F;
+    color: #FFFFFF;
+}

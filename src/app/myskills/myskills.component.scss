@@ -1,0 +1,92 @@
+.mys {
+    position: absolute;
+    top: 230%;
+    height: 60vh;
+    left: 0;
+    right: 0;
+    background: #141D2F;
+    z-index: 0;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    h1 {
+        color: white;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 120%;
+        padding-right: 100px;
+
+    }
+
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: right;
+        color: #FFFFFF;
+    }
+
+    button {
+        background: #00BEE8;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        width: 200px;
+        height: 58px;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 120%;
+        color: #FFFFFF;
+
+    }
+}
+
+.ico {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-self: stretch;
+
+    width: 80%;
+
+
+    img {
+        width: 55.8px;
+        height: 60px;
+        padding: 50px;
+    }
+}
+
+.putton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.myskills {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.line {
+    width: 58px;
+    height: 0px;
+    border: 4px solid #4B47FF;
+}
+
+.shape {
+    position: absolute;
+    right: 80%;
+    top: 20%;
+    filter: blur(46.5px);
+    transform: rotate(-151.74deg);
+    z-index: 2;
+}
