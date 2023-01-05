@@ -9,7 +9,7 @@
 }
 
 .d-blue {
-    position: absolute;
+    position: relative;
     height: 608px;
     left: 0.83%;
     right: 70.9%;
@@ -36,16 +36,21 @@
     left: 3.26%;
     right: 51.88%;
     top: 106px;
+    z-index: 1;
+}
+
+.profil-img-2 {
     z-index: 3;
 }
 
 .vector {
-    position: relative;
+    position: absolute;
     top: 45%;
     left: 0;
-    width: 1600px;
+    
+    width: 100%;
     overflow: hidden; 
-    z-index: 1;
+    z-index: 2;
 
     /* Style 1/Syle 1 a - green purple/Gradient b */
 
@@ -195,7 +200,7 @@
     justify-content: space-between;
     width: 50%;
     align-items: center;
-    z-index: 2;
+    z-index: 0;
 
     img {
         height: 30px;

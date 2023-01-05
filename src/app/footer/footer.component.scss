@@ -1,7 +1,10 @@
+html ,body {
+    z-index: 5;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
-    height: 100px;
     padding: 100px;
     align-items: baseline;
     background: #141D2F;
@@ -10,28 +13,32 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    z-index: 2;
+    
 }
 
 
 p {
     margin-top: 0;
+    cursor: default;
 }
 
 
 .impressum {
     display: flex;
     flex-direction: column;
+    z-index: 5;
 
     img {
         height: 40px;
         width: 200px;
+        z-index: 5;
     }
 
     a {
         color: white;
         text-decoration: none;
         line-height: 120%;
+        z-index: 5;
     }
 }
 

@@ -1,12 +1,12 @@
 <header>
     
     <div>
-        <img src="../../assets/img/logo.png" alt="">
+        <a href="#"><img src="../../assets/img/logo.png" alt=""></a>
     </div>
 
 
     <div class="menu">
-        <a href="#" *ngFor="let item of menu"> {{item}} </a>
+        <a href="#{{item}}" *ngFor="let item of menu"> {{item}} </a>
     </div>
 
 </header>

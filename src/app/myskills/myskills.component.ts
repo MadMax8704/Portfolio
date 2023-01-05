@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyskillsComponent implements OnInit {
 
-  images = ['angular', 'typescript', 'javascript', 'html',
-    'firebase', 'git', 'css', 'api', 'scrum', 'materialdesign']
+  images = ['Angular', 'TypeScript', 'JavaScript', 'HTML',
+    'Firebase', 'GIT', 'CSS', 'Rest-Api', 'Scrum', 'Material design']
 
   constructor() { }
 

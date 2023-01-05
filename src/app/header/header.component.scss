@@ -18,6 +18,7 @@ header {
 img {
     height: 40px;
     width: 200px;
+    cursor: pointer;
 }
 
 .menu {
@@ -38,6 +39,7 @@ img {
         line-height: 120%;
         color: #FFFFFF;
         text-decoration: none;
+        scroll-behavior: smooth;
 
         &:hover {
             color: #1CDAE6;

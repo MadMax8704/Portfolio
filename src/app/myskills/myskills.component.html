@@ -1,4 +1,4 @@
-<div class="mys">
+<div class="mys" id="Skills">
     <div>
         <div class="myskills">
             <h1>My skills</h1>
@@ -6,17 +6,20 @@
             </div>
         </div>
         <div class="putton">
-        <p>
-            I have grown my frontend developments skills
-            that have allowed me to create different real
-            projects.
-        </p>
-        <button>Get in touch</button>
-    </div>
+            <p>
+                I have grown my frontend developments skills
+                that have allowed me to create different real
+                projects.
+            </p>
+            <button>Get in touch</button>
+        </div>
 
     </div>
-    <div class="ico">
-        <img *ngFor="let img of images" src="../../assets/ico/{{img}}.png" alt="">
+    <div class="ico_holder">
+        <div class="ico" *ngFor="let img of images">
+            <img  src="../../assets/ico/{{img}}.png" alt="">
+            <p>{{img}}</p>
+        </div>
     </div>
 
     <img class="shape" src="../../assets/img/L. blue.png" alt="">

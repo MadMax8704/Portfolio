@@ -4,6 +4,7 @@
     src: local("Poppins"), url(./assets/fonts/Poppins-Regular.ttf) format("truetype");
 }
 
-body {
+body , html {
     margin: 0;
+    scroll-behavior: smooth;
 }
