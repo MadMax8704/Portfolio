@@ -1,12 +1,16 @@
-<div class="portfolioelement">
+<div
+ [ngClass] ="project.row ? 'portfolioelement' : 'reverse'"
+ 
+ *ngFor="let project of projects" 
+ >
     <div class="image">
-        <img src="../../assets/img/join.png" alt="">
+        <img src="{{project.img}}" alt="">
     </div>
     
     <div class="text">
-        <h2>Join</h2>
-        <h3>Angular | Typescript | Html | CSS | Firebase</h3>
-        <p>Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.</p>
+        <h2>{{project.name}}</h2>
+        <h3>{{project.techstack}}</h3>
+        <p>{{project.description}}</p>
         <div class="buttons">
             <button class="live">Live test</button>
             <button class="github">Github</button>
