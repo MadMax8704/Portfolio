@@ -20,7 +20,7 @@ export class PortfolioElementComponent implements OnInit {
       row : false,
     },
     {
-      name: "Join",
+      name: "El Pollo Loco",
       techstack: "Angular | Typescript | Html | CSS | Firebase",
       img: "../../assets/img/join.png",
       description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
