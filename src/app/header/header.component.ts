@@ -7,11 +7,14 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  menu =['About me','Skills', 'Portfolio']
+  menu = ['About me', 'Skills', 'Portfolio', 'Contact']
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  status: boolean = true;
+  clicked() {
+    this.status = !this.status;
+  }
 }

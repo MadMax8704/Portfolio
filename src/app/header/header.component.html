@@ -1,11 +1,21 @@
 <header>
-    
+
     <div>
         <a href="#"><img src="../../assets/img/logo.png" alt=""></a>
     </div>
 
 
     <div class="menu">
+        <a href="#{{item}}" *ngFor="let item of menu"> {{item}} </a>
+    </div>
+
+    <div class="mobil_button" (click)="clicked()"  
+    >
+        <img id="menu" src="../../assets/img/menu.png" alt="">
+    </div>
+
+    <div class="mobil_menu" [ngClass]="status ? 'menu_fade_out' : 'menu_fade_in'">
+        <img (click)="clicked()" src="../../assets/img/close.png" alt="">
         <a href="#{{item}}" *ngFor="let item of menu"> {{item}} </a>
     </div>
 
