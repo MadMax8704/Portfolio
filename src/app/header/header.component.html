@@ -14,7 +14,7 @@
         <img id="menu" src="../../assets/img/menu.png" alt="">
     </div>
 
-    <div class="mobil_menu" [ngClass]="status ? 'menu_fade_out' : 'menu_fade_in'">
+    <div id="mm" class="mobil_menu">
         <img (click)="clicked()" src="../../assets/img/close.png" alt="">
         <a href="#{{item}}" *ngFor="let item of menu"> {{item}} </a>
     </div>

@@ -13,8 +13,20 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  status: boolean = true;
+
+  clickon : boolean = true;
+
+
+
   clicked() {
-    this.status = !this.status;
+    if (this.clickon) {
+      document.getElementById("mm").classList.remove("menu_fade_out");
+      document.getElementById("mm").classList.add("menu_fade_in");
+      this.clickon = false;
+    } else {
+      document.getElementById("mm").classList.remove("menu_fade_in");
+      document.getElementById("mm").classList.add("menu_fade_out");
+      this.clickon = true;
+    } 
   }
 }
