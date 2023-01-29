@@ -17,9 +17,7 @@
 }
 
 h1 {
-    padding-left: 100px;
-    width: 376px;
-    height: 108px;
+    padding-left: 92px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -27,14 +25,14 @@ h1 {
     line-height: 120%;
     text-align: center;
     color: #FFFFFF;
-
+    
 }
 
 .tabs {
     display: flex;
     justify-content: space-between;
-    padding: 100px;
-    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     height: fit-content;
     
 
@@ -173,5 +171,27 @@ h1 {
     z-index: -1;
 }
     
-    
+@media (max-width: 1000px) {
+    h1{
+        padding-bottom: 50px;
+    }
+    .tabs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+    .text {
+        padding: 0;
+        width: 80%;
+    }
+    .inputfeld {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        width: 80%;
+    }
+
+}
+
 
