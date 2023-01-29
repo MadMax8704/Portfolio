@@ -54,7 +54,7 @@
     left: 0;
     right: 0;
     overflow: hidden;
-    z-index: 0;
+    z-index: 2;
     img{
         width: 2000px;
     }
@@ -66,7 +66,7 @@
     flex-direction: column;
     gap: 35px;
     padding-right: 100px;
-    z-index: 1;
+    z-index: 6;
 
 
     h1 {
@@ -142,7 +142,7 @@
     width: 170px;
     height: 28px;
     transform: rotate(90deg);
-    z-index: 2;
+    z-index: 5;
 
     span {
         font-family: 'Poppins';
@@ -165,14 +165,14 @@
     position: absolute;
     right: 0;
     bottom: -50%;
-    z-index: 2;
+    z-index: 6;
 }
 
 .line {
     width: 100px;
     border: 4px solid #4B47FF;
     height: 0px;
-    z-index: 2;
+    z-index: 6;
 }
 
 .under-foto {
@@ -183,7 +183,7 @@
     justify-content: space-between;
     width: 50%;
     align-items: center;
-    z-index: 1;
+    z-index: 6;
 
     img {
         height: 30px;
