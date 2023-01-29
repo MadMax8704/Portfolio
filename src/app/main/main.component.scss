@@ -47,6 +47,7 @@
 .profilfoto {
     width: 20vw;
     padding-left: 100px;
+    
 }
 
 .vector {
@@ -74,7 +75,8 @@
         font-size: 5vw;
         line-height: 120%;
         margin: 0;
-        
+        white-space: nowrap;
+   
     }
 
     h2 {
@@ -83,7 +85,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 4vw;
-        
+        white-space: nowrap;
         color: #FFFFFF;
         transform: rotate(-90deg);
         margin: 0;
@@ -97,6 +99,8 @@
         line-height: 120%;
         color: #4B47FF;
         margin: 0;
+        white-space: nowrap;
+
     }
 
     .button {
@@ -195,5 +199,56 @@
         text-decoration: none;
         color: #FFFFFF;
     }
+
+}
+
+@media (max-width: 1400px) {
+    .vector {
+        top:25vh;
+    }
+}
+@media (max-width: 1250px) {
+    .vector {
+        top:30vh;
+    }
+    .profil-img-1 {
+        height: 60%;
+        top: 10vh;
+    }
+    .name {
+        width: 90%;
+    }
+    .name {
+        h1 {
+            font-size: 4vw;
+        }
+        h2 {
+            font-size: 3wv;
+        }
+        h3 {
+            font-size: 3wv;
+        }
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .main {
+        flex-direction: column;
+    }
+    .profilfoto {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .profil-img-1 {
+        
+        
+
+    }
+    
+    
 
 }
