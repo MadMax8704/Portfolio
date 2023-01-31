@@ -1,7 +1,3 @@
-html ,body {
-    z-index: 5;
-}
-
 .footer {
     display: flex;
     justify-content: space-between;
@@ -13,7 +9,7 @@ html ,body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    
+    z-index: 5;
 }
 
 
@@ -41,6 +37,11 @@ p {
         z-index: 5;
     }
 }
+#impressum:hover {
+    width: 50px;
+    border-bottom: solid 2px;
+    border-color: #00BEE8;
+}
 
 .links {
     width: 15%;
@@ -54,3 +55,38 @@ p {
     }
 }
 
+.links img:hover {
+    transform: scale(140%);
+}
+
+@media (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+    }
+    #impressum {
+        position: relative;
+        top: 100px;
+    }
+    .links {
+        width: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .links {
+        width: 50%;
+    }
+}
+
+@media (max-width: 320px) {
+    .links {
+        width: 80%;
+    }
+    .sign {
+        white-space: nowrap;
+    }
+}

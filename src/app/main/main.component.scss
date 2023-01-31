@@ -23,7 +23,7 @@
     position: absolute;
     width: 530px;
     height: 380px;
-    left: 4%;
+    left: 40%;
     top: 10%;
     filter: blur(46.5px);
     transform: rotate(-100.81deg);
@@ -36,6 +36,7 @@
     left: 100px;
     height: 70%;
     z-index: 2;
+    overflow: hidden;
 }
 
 .profil-img-2 {
@@ -108,21 +109,27 @@
     
     .button {
         display: flex;
-        width: 80px;
+        width: 120px;
+        height: 30px;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 15px 30px;
         gap: 10px;
-        top: 250px;
         background: #00BEE8;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         font-family: poppins;
+        font-size: 23px;
         text-decoration: none;
+        color: #FFFFFF;
     }
-    
-    
+
+    .button:hover{
+        width: 150px;
+        height: 40px;
+        background-color: #4B47FF;
+    } 
 }
 
 .h2 {
@@ -166,6 +173,17 @@
     right: 0;
     bottom: -50%;
     z-index: 6;
+}
+.animation_blur {
+    animation-name: blur;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;   
+}
+@keyframes blur {
+    0%   {filter: blur(50px); opacity: 0.5;}
+    50%  {filter: blur(5px); opacity: 1;}
+    100% {filter: blur(50px); opacity: 0.5;}
 }
 
 .line {
@@ -274,9 +292,10 @@
         display: none;
     }
     .name {
+        
         padding: 50px;
-        width: 100%;
-        padding: 0;
+        width: 80%;
+        padding-top: 580px;
         h1 {
             font-size: 7vw;
         }
@@ -304,6 +323,7 @@
         left: 50%;
         right: 70%;
         top: 20%;
+        transform: translateX(90%);
 
     }
     
@@ -312,6 +332,6 @@
         height: 380px;
         left: 20%;
         top: 250px;
-        
+        transform: translateX(40%);
     }
 }
