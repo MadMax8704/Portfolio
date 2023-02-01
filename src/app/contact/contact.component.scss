@@ -173,17 +173,21 @@ h1 {
 .d-blue {
     position: absolute;
     left: -30%;
-    width: 600px;
-    height: 800px;
+    width: 80%;
+    
+    height: 400px;
     filter: blur(46.5px);
     transform: rotate(-89.02deg);
     z-index: 0;
+    
 }
 .animation_blur {
     animation-name: blur;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;   
+    animation-timing-function: linear;
+    overflow: hidden;
+    width: 40%;   
 }
 @keyframes blur {
     0%   {filter: blur(50px); opacity: 0.5;}
@@ -211,7 +215,9 @@ h1 {
         padding-top: 50px;
         width: 80%;
     }
-
+    .animation_blur {
+        width: 80%;
+    }
 }
 
 
