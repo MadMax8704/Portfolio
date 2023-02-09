@@ -1,4 +1,4 @@
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     padding: 100px;
@@ -60,7 +60,7 @@ p {
 }
 
 @media (max-width: 900px) {
-    .footer {
+    footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;

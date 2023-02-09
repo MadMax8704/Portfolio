@@ -1,0 +1,27 @@
+
+    
+
+.impress {
+    font-family: poppins;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    background-color: #141D2F;
+    margin: 0;
+
+    h1 {
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .impress {
+        padding: 50px;
+    }
+}

@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { MyskillsComponent } from './myskills/myskills.component';
 import { PortfolioElementComponent } from './portfolio-element/portfolio-element.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { PortfolioElementComponent } from './portfolio-element/portfolio-element
     FooterComponent,
     MyskillsComponent,
     PortfolioElementComponent,
+    ImprintComponent,
     
   ],
   imports: [
