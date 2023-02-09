@@ -4,11 +4,14 @@
     right: 0;
     background: #141D2F;
     z-index: 0;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    
+    
 
     h1 {
         color: white;
@@ -111,7 +114,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
+    
 }
 
 .line {
@@ -123,10 +126,11 @@
 .shape {
     position: absolute;
     right: 80%;
-    top: 20%;
+    top: 5%;
     filter: blur(46.5px);
     transform: rotate(-151.74deg);
     z-index: 2;
+    overflow: visible;
 }
 
 .animation_blur {
