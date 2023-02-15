@@ -236,16 +236,8 @@
     100% {left:3%; top:10%;height: 100%;transform: rotate(0 deg);filter: blur(46.5px); opacity: 1;}
 }
 
-@media (max-width: 1400px) {
-    .vector {
-        
-    }
-}
 
 @media (max-width: 1250px) {
-    .vector {
-        
-    }
 
     .profil-img-1 {
         height: 60%;
@@ -333,5 +325,9 @@
         left: 20%;
         top: 250px;
         transform: translateX(40%);
+    }
+
+    @media (max-width: 1000px) {
+
     }
 }

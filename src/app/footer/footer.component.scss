@@ -32,15 +32,19 @@ p {
 
     a {
         color: white;
-        text-decoration: none;
-        line-height: 120%;
+        text-decoration: none;        
         z-index: 5;
     }
 }
-#impressum:hover {
+#impressum {
     width: 50px;
     border-bottom: solid 2px;
+    border-color: transparent;
+}
+
+#impressum:hover {
     border-color: #00BEE8;
+    
 }
 
 .links {
@@ -69,7 +73,9 @@ p {
     }
     #impressum {
         position: relative;
-        top: 100px;
+        top: 120px;
+        left: 37%;
+        
     }
     .links {
         width: 30%;

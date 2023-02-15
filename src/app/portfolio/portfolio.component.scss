@@ -57,3 +57,11 @@ h1 {position: absolute;
     color: #FFFFFF;
     background-color: #141D2F;  
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+        width: auto;
+        
+    }
+}
