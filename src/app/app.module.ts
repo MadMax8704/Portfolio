@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MyskillsComponent } from './myskills/myskills.component';
 import { PortfolioElementComponent } from './portfolio-element/portfolio-element.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { EmailSuccesComponent } from './email-succes/email-succes.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ImprintComponent } from './imprint/imprint.component';
     MyskillsComponent,
     PortfolioElementComponent,
     ImprintComponent,
+    EmailSuccesComponent,
     
   ],
   imports: [

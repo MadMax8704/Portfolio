@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { EmailSuccesComponent } from '../email-succes/email-succes.component';
 import { HeaderComponent } from './header.component';
 
 describe('HeaderComponent', () => {
