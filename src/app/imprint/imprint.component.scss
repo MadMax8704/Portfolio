@@ -1,6 +1,3 @@
-
-    
-
 .impress {
     font-family: poppins;
     color: white;
@@ -8,20 +5,42 @@
     padding-left: 100px;
     background-color: #141D2F;
     margin: 0;
-
+    position: relative;
+    height: 55svh;
+    
     h1 {
         margin: 0;
+        font-size: clamp(2rem, 2.5vw, 3rem);
+        padding-bottom: 2rem;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: clamp(1.5rem, 2.5vw, 1.5rem);
     }
 
     p {
         margin: 0;
         padding-bottom: 50px;
+        font-size: clamp(1rem, 2vw, 1rem);
+         
     }
 
 }
 
 @media (max-width: 600px) {
     .impress {
-        padding: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        height: 60svh;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .impress {
+        p{
+            font-size: 0.8rem;
+        }
     }
 }

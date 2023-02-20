@@ -14,7 +14,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 90px;
+        font-size: clamp(3rem, 5rem, 6rem);
         line-height: 120%;
         white-space: nowrap;
         z-index: 4;
@@ -102,5 +102,11 @@
         h1{
             font-size: 3rem;
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        padding: 50px;
     }
 }
