@@ -4,14 +4,14 @@
     right: 0;
     background: #141D2F;
     z-index: 0;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 100px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    
-    
+
+
 
     h1 {
         color: white;
@@ -29,7 +29,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 120%;
         text-align: right;
         color: #FFFFFF;
@@ -51,7 +51,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
     }
+
     a:hover {
         width: 240px;
         height: 70px;
@@ -114,7 +116,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
+
 }
 
 .line {
@@ -188,6 +190,18 @@
 }
 
 @media (max-width: 1000px) {
+    .myskills {
+        h1 {
+            font-size: 3rem;
+            padding-right: 26px;
+        }
+    }
+
+    .button {
+        position: absolute;
+        bottom: 1rem;
+    }
+
     .mys {
         flex-direction: column;
     }
@@ -195,17 +209,18 @@
     .ico_holder {
         width: 100%;
         align-items: center;
-        padding-bottom: 100px;
-        padding-top: 100px;
+        padding: 0;
 
 
         .ico {
-            width: 200px;
+            width: 160px;
             height: 200px;
         }
     }
 
     .putton {
+        padding-bottom: 3rem;
+
         button {
             position: absolute;
             bottom: 0;
@@ -222,18 +237,92 @@
         }
     }
 
-    .myskills {
+}
 
+@media (max-width: 600px) {
+    .mys {
+        padding-left: 50px;
+    }
+
+    .myskills {
         h1 {
-            padding-right: 0px;
+            font-size: 3rem;
+            padding-right: 10px;
+        }
+
+        .line {
+            width: 30px;
+        }
+    }
+
+    .ico_holder {
+        .ico {
+            width: 120px;
+            height: 120px;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .putton {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .ico_holder {
+        .ico {
+            width: 100px;
+            height: 100px;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .putton {
+        .button {
+            font-size: 1rem;
+            width: 175px;
+            height: 55px;
         }
     }
 }
 
-@media (max-width: 600px) {
-    .myskills {
-    h1 {
-        font-size: 3rem;
+@media (max-width: 400px) {
+    .ico_holder {
+        .ico {
+            width: 90px;
+            height: 90px;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
     }
 }
+
+@media (max-width: 350px) {
+
+    .ico_holder {
+        .ico {
+            width: 80px;
+            height: 80px;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
 }

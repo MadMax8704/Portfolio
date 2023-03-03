@@ -3,11 +3,15 @@
 </div>
 <div class="contact" id="Contact">
     <div class="head">
-        <div class="line"></div>
-        <h1>Contact</h1>
+        <div class="lineholder">
+            <div class="line"></div>
+        </div>
+        <div>
+            <h1>Contact</h1>
+        </div>
     </div>
     <div class="tabs">
-        <div class="text">
+        <div data-aos="fade-right" class="text">
             <h2>Got a problem solve?</h2>
             <p>Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your
                 projects with my work.</p>
@@ -18,8 +22,12 @@
             <form action="https://norbert-madarasz.developerakademie.net/send_mail.php" method="post">
                 <input name="name" required id="name" type="text" placeholder="Your name">
                 <input required id="email" type="email" placeholder="Your email">
-                <textarea name="message" required id="message" rows="10" cols="10" placeholder="Your message"></textarea>
-                <button id="submitbtn" type="submit">Send message :)</button>
+                <textarea name="message" required id="message" rows="10" cols="10"
+                    placeholder="Your message"></textarea>
+                    <div class="btndiv">
+                        <button id="submitbtn" type="submit">Send message :)</button>
+                    </div>
+                
             </form>
         </div>
     </div>

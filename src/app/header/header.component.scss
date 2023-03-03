@@ -168,7 +168,7 @@ header {
 @media (max-width: 500px) {
     .mobil_menu{
         a {
-            font-size: 10vw;
+            font-size: clamp (2rem 10vw 5rem);
         }
     }
     header {
@@ -179,4 +179,14 @@ header {
         }
     }
 
+}
+
+@media (max-width: 350px) {
+    header {
+        padding: 10px 25px;
+        img {
+            height: 20px;
+            width: 100px;
+        }
+    }
 }

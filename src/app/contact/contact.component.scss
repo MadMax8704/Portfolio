@@ -1,16 +1,22 @@
 .contact {
     background-color: #141D2F;
     padding-top: 100px;
-    
+
 }
 
 .head {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 2rem;
+    padding-top: 100px;
+}
+
+.lineholder {
+    width: 100px;
 }
 
 .line {
-    position: absolute;
     width: 50px;
     height: 0px;
     left: 0px;
@@ -18,15 +24,13 @@
 }
 
 h1 {
-    padding-left: 92px;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
-    font-size: 90px;
+    font-size: clamp(3rem, 5rem, 6rem);
     line-height: 120%;
     text-align: center;
     color: #FFFFFF;
-    
+    padding: 0;
+    margin: 0;
 }
 
 .tabs {
@@ -92,9 +96,11 @@ h1 {
             /* Firefox */
         }
 
+        .btndiv {
+            height: 70px;
+        }
+
         #submitbtn {
-            font-family: 'Poppins';
-            font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 120%;
@@ -107,6 +113,7 @@ h1 {
             padding: 15px 30px;
             gap: 10px;
         }
+
         #submitbtn:hover {
             background-color: #4B47FF;
             width: 270px;
@@ -148,7 +155,7 @@ h1 {
 
 }
 
-.to_top_button {  
+.to_top_button {
     right: 100px;
     width: 100%;
     height: 50px;
@@ -178,49 +185,94 @@ h1 {
     filter: blur(46.5px);
     transform: rotate(-89.02deg);
     z-index: 0;
-    
+
 }
+
 .animation_blur {
     animation-name: blur;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     overflow: hidden;
-    width: 40%;   
+    width: 40%;
 }
+
 @keyframes blur {
-    0%   {filter: blur(50px); opacity: 0.5;}
-    50%  {filter: blur(5px); opacity: 1;}
-    100% {filter: blur(50px); opacity: 0.5;}
-}
-    
-@media (max-width: 1000px) {
-    h1{
-        padding-bottom: 50px;
+    0% {
+        filter: blur(50px);
+        opacity: 0.5;
     }
+
+    50% {
+        filter: blur(5px);
+        opacity: 1;
+    }
+
+    100% {
+        filter: blur(50px);
+        opacity: 0.5;
+    }
+}
+
+@media (max-width: 1000px) {
+
     .tabs {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        padding: 0;
+        width: auto;
+        padding: 0 100px;
     }
+
     .text {
         padding: 0;
-        width: 80%;
+        width: 100%;
     }
+
     .inputfeld {
         padding-bottom: 50px;
         padding-top: 50px;
-        width: 80%;
+        width: 100%;
     }
+
     .animation_blur {
         width: 80%;
+    }
+
+    h1 {
+        font-size: 3rem;
     }
 }
 
 @media (max-width: 600px) {
-    h1 {
-        font-size: 3rem;
+    .lineholder {
+        width: 50px;
+    }
+
+    .line {
+        width: 30px;
+    }
+
+    .tabs {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    .lineholder {
+        width: 25px;
+    }
+
+    .line {
+        width: 10px;
+    }
+    .tabs {
+        padding: 25px;
+    }
+    .btndiv {
+        display: flex;
+        align-items: center;
+        width: 170px;
+        white-space: nowrap;
     }
 }

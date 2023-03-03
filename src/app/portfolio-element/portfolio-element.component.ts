@@ -13,18 +13,21 @@ export class PortfolioElementComponent implements OnInit {
   projects = [
     {
       name: "Join",
-      techstack: "Angular | Typescript | Html | CSS | Firebase",
+      techstack: "Javascript | Html | CSS ",
       img: "../../assets/img/join.png",
       description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
-      linktogit: "google.com",
+      linktogit: "https://github.com/MadMax8704/Kanban",
+      linktosite: "http://norbert-madarasz.developerakademie.net/Join/index.html",
       row : false,
+      maintech:"",
     },
     {
       name: "El Pollo Loco",
-      techstack: "Angular | Typescript | Html | CSS | Firebase",
-      img: "../../assets/img/join.png",
-      description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
-      linktogit: "google.com",
+      techstack: "Javascript | Html | CSS",
+      img: "../../assets/img/elpolloloco.png",
+      description: "A run and jump 2D browser game. Programmed with Javascript in Objekt Oriented strukture.",
+      linktogit: "https://github.com/MadMax8704/El-Pollo-Loco",
+      linktosite: "http://norbert-madarasz.developerakademie.net/El%20Pollo%20Loco/index.html",
       row: true,
     }
   ];

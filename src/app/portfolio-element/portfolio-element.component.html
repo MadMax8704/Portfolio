@@ -1,9 +1,9 @@
-<div
+<div 
  [ngClass] ="project.row ? 'portfolioelement' : 'reverse'"
  
  *ngFor="let project of projects" 
  >
-    <div class="image">
+    <div data-aos="fade-bottom" class="image">
         <img src="{{project.img}}" alt="">
     </div>
     
@@ -12,8 +12,8 @@
         <h3>{{project.techstack}}</h3>
         <p>{{project.description}}</p>
         <div class="buttons">
-            <button class="live">Live test</button>
-            <button class="github">Github</button>
+            <a href="{{project.linktosite}}" target="_blank" class="live">Live test</a>
+            <a href="{{project.linktogit}}" target="_blank" class="github">Github</a>
         </div>
 
     </div> 
