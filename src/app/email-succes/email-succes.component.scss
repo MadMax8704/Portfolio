@@ -51,46 +51,5 @@ h2 {
 }
 
 .fancy {
-    @supports (background-clip: text) or (-webkit-background-clip: text) {
-        background:
-            url("../../assets/img/D.blue.png"), url("../../assets/img/D.blue.png") left;
-        background-size: 90% auto;
-        background-position: left;
-        color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-        animation-name: blur;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-    }
-}
-
-
-
-
-@keyframes blur {
-    0% {
-        
-        filter: blur(100%);
-        opacity: 0.9;
-        background-position: top;
-
-    }
-
-    50% {
-        filter: blur(70%);
-        opacity: 1;
-        background-position: center;
-        background-size: 60%;
-        transform: rotateY(10deg);
-   
-    }
-
-    100% {
-        filter: blur(100%);
-        opacity: 0.9;
-        background-position: top;
-
-    }
+    color: #4B47FF;
 }

@@ -12,7 +12,6 @@ import { MyskillsComponent } from './myskills/myskills.component';
 import { PortfolioElementComponent } from './portfolio-element/portfolio-element.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { EmailSuccesComponent } from './email-succes/email-succes.component';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

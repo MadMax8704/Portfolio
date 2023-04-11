@@ -12,6 +12,8 @@ header {
     background: #141D2F;
     backdrop-filter: blur(32.5px);
     z-index: 20;
+    box-shadow: 0px 5px 5px #243455;
+    
 
     img {
         height: 40px;
@@ -172,6 +174,7 @@ header {
         }
     }
     header {
+        height: 60px;
         padding: 10px 50px;
         img {
             height: 20px;
@@ -183,6 +186,7 @@ header {
 
 @media (max-width: 350px) {
     header {
+        
         padding: 10px 25px;
         img {
             height: 20px;

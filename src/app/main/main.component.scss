@@ -20,10 +20,20 @@
     height: 70vh;
     img {
         position: absolute;
-        object-fit: contain;
+
     }
+
 }
 
+.purple_motiv {
+    width: 500px;
+    padding-left: 300px;
+}
+
+.blue_motiv {
+    width: 500px;
+    padding-right: 100px;
+}
 
 .profil1 {
     width: 500px;
@@ -43,7 +53,7 @@
     grid-template-columns: 15% 85%;
     width: 100%;
     white-space: nowrap;
-    padding-top: 10%;
+    padding-top: 20%;
     z-index: 5;
     h1 {
         margin: 0;
@@ -112,21 +122,34 @@
     width: 170px;
     height: 28px;
     transform: rotate(90deg);
-    z-index: 5;
+    z-index: 11;
 
     span {
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 120%;
-        color: #FFFFFF;
+        color: #FFFFFF;        
     }
 
     img {
         width: 1rem;
         height: 1rem;
         transform: rotate(-90deg);
-        padding-top: 1rem;
+        padding-top: 1rem;        
     }
+}
+
+.animation_move {
+    animation-name: moveing;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes moveing {
+    0% {padding-top: 1rem;}
+    50% {padding-top: 2rem;}
+    100% {padding-top: 1rem;}
 }
 
 .vector {
@@ -137,7 +160,6 @@
     overflow: hidden;
     z-index: 4;
     
-
     img {
         width: 2400px;
         height: 1600px;
@@ -285,6 +307,16 @@
         height: 50vh;
         
     }
+    .purple_motiv {
+        width: none;
+        padding-left: 0;
+    }
+    
+    .blue_motiv {
+        width: none;
+        padding-right: 0;
+    }
+    
 
     .button {
         width: 5rem;
@@ -388,7 +420,7 @@
         }
     }
     .vector {
-        top: -200px;
+        top: -230px;
         left: 0;
         img {
             width: 800px;

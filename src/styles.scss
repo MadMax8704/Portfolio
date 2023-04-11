@@ -7,8 +7,17 @@
 body , html {
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'Poppins';
+    font-family: 'Poppins';   
 }
+
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+ }
 
 // * {
 //     box-sizing: border-box;

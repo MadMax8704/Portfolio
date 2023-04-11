@@ -29,6 +29,15 @@ export class PortfolioElementComponent implements OnInit {
       linktogit: "https://github.com/MadMax8704/El-Pollo-Loco",
       linktosite: "http://norbert-madarasz.developerakademie.net/El%20Pollo%20Loco/index.html",
       row: true,
+    },
+    {
+      name: "Ring of Fire",
+      techstack: "Angular | Firebase | Html | CSS",
+      img: "./assets/img/ringoffire.png",
+      description: "A live multiplayer drink card game created with firebase, angular and angular material.",
+      linktogit: "https://github.com/MadMax8704/ringoffire",
+      linktosite: "https://norbert-madarasz.developerakademie.net/ringoffire/",
+      row: false,
     }
   ];
 
