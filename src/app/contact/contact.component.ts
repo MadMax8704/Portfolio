@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { assertPlatform, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
@@ -11,5 +11,4 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

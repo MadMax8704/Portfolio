@@ -17,7 +17,7 @@ export class PortfolioElementComponent implements OnInit {
       img: "./assets/img/join.png",
       description: "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
       linktogit: "https://github.com/MadMax8704/Kanban",
-      linktosite: "http://norbert-madarasz.developerakademie.net/Join/index.html",
+      linktosite: "https://join.norbert-madarasz.de/",
       row : false,
       maintech:"",
     },
@@ -27,7 +27,7 @@ export class PortfolioElementComponent implements OnInit {
       img: "./assets/img/elpolloloco.png",
       description: "A run and jump 2D browser game. Programmed with Javascript in Objekt Oriented strukture.",
       linktogit: "https://github.com/MadMax8704/El-Pollo-Loco",
-      linktosite: "http://norbert-madarasz.developerakademie.net/El%20Pollo%20Loco/index.html",
+      linktosite: "https://www.el-pollo-loco.norbert-madarasz.de/",
       row: true,
     },
     {
@@ -36,7 +36,7 @@ export class PortfolioElementComponent implements OnInit {
       img: "./assets/img/ringoffire.png",
       description: "A live multiplayer drink card game created with firebase, angular and angular material.",
       linktogit: "https://github.com/MadMax8704/ringoffire",
-      linktosite: "https://norbert-madarasz.developerakademie.net/ringoffire/",
+      linktosite: "https://ring-of-fire.norbert-madarasz.de/",
       row: false,
     }
   ];
