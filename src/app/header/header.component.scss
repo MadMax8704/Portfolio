@@ -65,7 +65,7 @@ header {
     display: flex;
     position: absolute;
     right: 0;
-    top: 100px;
+    top: 140px;
     width: 0%;
     height: 100vh;
     background-color: rgba(20, 29, 47, 0.915);
@@ -135,6 +135,7 @@ header {
 
     .mobil_menu {
         display: flex;
+        top: 100px;
     }
     .mobil_button {
         display: flex;
@@ -169,6 +170,7 @@ header {
 
 @media (max-width: 500px) {
     .mobil_menu{
+        top:80px;
         a {
             font-size: clamp (2rem 10vw 5rem);
         }

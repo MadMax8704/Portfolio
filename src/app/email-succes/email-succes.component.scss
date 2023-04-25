@@ -51,5 +51,14 @@ h2 {
 }
 
 .fancy {
+    animation-name: font-fancy;    
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
     color: #4B47FF;
 }
+
+@keyframes font-fancy {
+    0%   {font-size: 0;}
+    }
+
